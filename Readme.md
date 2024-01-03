@@ -25,6 +25,8 @@ The user is assigned permissions. There are five permissions available:
 
 Important: Users must have the 'dashboard' permission to access and sign in to the dashboard.
 
+Important: After the creation of the alert please run simulate.js that file is responsible for acting as if the device is pushing data. 
+
 Note: For simplicity, the .env file is included in the repository, although it is generally not recommended for security reasons.
 
 
