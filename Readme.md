@@ -7,9 +7,11 @@ These instructions will guide you through setting up your instance of the projec
 <h2>Prerequisites</h2>
 Before you begin, ensure you have the following installed:
 
-Node.js
-MongoDB (using Docker for MongoDB deployment is recommended)
-npm (Node Package Manager)
+- Node.js
+- MongoDB (using Docker for MongoDB deployment is recommended)
+- npm (Node Package Manager)
+
+
 Installing
 Follow these steps to set up your development environment:
 
