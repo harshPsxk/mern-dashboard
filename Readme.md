@@ -1,4 +1,4 @@
-Dashboard for IoT
+<h1>Dashboard for IoT</h1>
 A comprehensive dashboard solution for visualizing and managing data from IoT devices.
 
 Getting Started
