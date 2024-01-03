@@ -1,3 +1,5 @@
+Clone the repository
+you would have to run npm install in both directories, The first one is the root where the backend resides, second one is the client folder where the front end resides. 
 
 Mongo db  running instance ( use docker to start a mongo db deployment)
 
