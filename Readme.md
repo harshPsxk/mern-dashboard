@@ -57,11 +57,7 @@ Follow these steps to set up your development environment:
 ### Security Note
 
 - The `.env` file is included in the repository for simplicity, although it is generally not recommended for security reasons.
-
-## Contributing
-
-Please read [CONTRIBUTING.md](CONTRIBUTING.md) for details on our code of conduct, and the process for submitting pull requests.
-
+  
 ## Authors
 
 - **Harsh Pratap Singh** - *Initial work* - [harshPsxk](https://github.com/harshPsxk)
