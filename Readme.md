@@ -8,6 +8,8 @@ Provide the connection string for that deployment in the env file and replace th
 To launch the backend server, you can just navigate to the root directory of your project and then go ahead and execute 
 -node server.js.
 
+IMPORTANT : After this in the separate terminal run simulate.js so that the data is pushed and can be visualized on the dashboard before you log in.
+
 Open a new terminal in Visual Studio Code or any code editor you choose for the front end. Navigate to the client directory located in the root folder. Start the React application by running 
 -npm start.
 
