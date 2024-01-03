@@ -1,0 +1,32 @@
+/* Home.css */
+
+.home-container {
+  text-align: center;
+  margin-top: 100px;
+}
+
+.home-container h1 {
+  color: #333;
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+}
+
+/* Home.css */
+
+.home-link {
+  display: inline-block;
+  width: 150px; /* Set a fixed width */
+  padding: 10px 20px; /* Consistent padding */
+  margin: 10px;
+  font-size: 1rem; /* Standardize font size */
+  color: white;
+  background-color: #007bff;
+  border-radius: 5px;
+  text-decoration: none;
+  text-align: center; /* Center the text inside the button */
+  transition: background-color 0.3s ease;
+}
+
+.home-link:hover {
+  background-color: #0056b3;
+}

@@ -1,0 +1,55 @@
+--- Folder Layout ---
+.env
+[.git] (...)
+.gitignore
+[client]
+    ├── .env
+    ├── [.git] (...)
+    ├── .gitignore
+    ├── [node_modules] (...)
+    ├── package-lock.json
+    ├── package.json
+    ├── [public]
+        ├── background3.jpg
+        ├── blueiot-logo.svg
+        ├── favicon.ico
+        ├── index.html
+        ├── logo192.png
+        ├── logo512.png
+        ├── manifest.json
+        └── robots.txt
+    ├── README.md
+    └── [src]
+        ├── App.css
+        ├── App.js
+        ├── App.test.js
+        ├── [components]
+            ├── AlertCreation.js
+            ├── AlertHistory.js
+            ├── Dashboard.js
+            ├── Home.css
+            ├── Home.js
+            ├── Login.css
+            ├── Login.js
+            ├── Register.css
+            └── Register.js
+        ├── [hoc]
+            ├── withAuthenticatedContext.js
+            └── withNoAuthContext.js
+        ├── index.css
+        ├── index.js
+        ├── logo.svg
+        ├── reportWebVitals.js
+        └── setupTests.js
+final-output-project.json
+[models]
+    ├── alert.js
+    ├── data.js
+    └── user.js
+[node_modules] (...)
+package-lock.json
+package.json
+[routes] (...)
+server.js
+simulate.js
+verifyToken.js
