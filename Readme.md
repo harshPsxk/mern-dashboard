@@ -1,30 +1,29 @@
 
-mongo db  running instance ( use docker to start a mongo db deployment)
+Mongo db  running instance ( use docker to start a mongo db deployment)
 
-provide the connection string for that deployment in the env file 
+Provide the connection string for that deployment in the env file and replace the previous variable DB_URI='mongodb://localhost:27017' here you have to provide your URI that is of the docker 
 
-and replace the previous variable DB_URI='mongodb://localhost:27017' here you have to provide your own uri that is of the docker 
+To launch the backend server, you can just navigate to the root directory of your project and then go ahead and execute 
+-node server.js.
 
-for starting the backend server is in the root file called "server.js"
-just run node server.js 
+Open a new terminal in Visual Studio Code or any code editor you choose for the front end. Navigate to the client directory located in the root folder. Start the React application by running 
+-npm start.
 
-for starting the front end open a new parallel terminal in the vs code or any code editor, navigate to client directory present in the 
-root folder
+The user registration process involves a form where:
 
-run npm start for starting the react app. 
+The user selects their company from a dropdown menu.
 
-for registering new user there will a form that will hold company drop down select for what company the user belongs to.
-next the type of device that user wants to monitor select the device 
-finally the permission there are total 5 
-'dashboard', 
-  'alerts:list',
-  'alerts:manage',
-  'access-control:list',
-  'access-control:manage',
+The user is assigned permissions. There are five permissions available:
 
-if user is not given dashboard the user won be allowed to sign in to the dashboard. 
+-'dashboard'
+-'alerts:list'
+-'alerts:manage'
+-'access-control:list'
+-'access-control:manage'
 
-i am commiting env file though it is not recommmened just for the project simplicity. 
+Important: Users must have the 'dashboard' permission to access and sign in to the dashboard.
+
+Note: For simplicity, the .env file is included in the repository, although it is generally not recommended for security reasons.
 
 
 
