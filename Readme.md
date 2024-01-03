@@ -4,7 +4,7 @@ A comprehensive dashboard solution for visualizing and managing data from IoT de
 <h2>Getting Started</h2>
 These instructions will guide you through setting up your instance of the project for development and testing purposes.
 
-<h3>Prerequisites</h3>
+<h2>Prerequisites</h2>
 Before you begin, ensure you have the following installed:
 
 Node.js
